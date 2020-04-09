@@ -1,25 +1,17 @@
 {
   "compilerOptions": {
-    "allowJs": false,
-    "declaration": true,
-    "preserveConstEnums": true,
+      "declaration": true,
+    "lib": ["ES6"],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "strictNullChecks": true,
-    "noUnusedLocals": true,
-    "noImplicitThis": true,
-    "noUnusedParameters": true,
-    "noEmitHelpers": false,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "target": "es2016",
-    "outDir": "./lib",
-    "jsx": "react",
-    "lib": [
-      "es2017",
-      "dom"
-    ]
+    "outDir": "dist/commonjs",
+    "removeComments": true,
+    "rootDir": "src/ts",
+    "sourceMap": true,
+    "target": "ES6"
   },
   "include": [
     "src/index.ts"
