@@ -9,7 +9,7 @@
     "noImplicitReturns": true,
     "outDir": "dist/commonjs",
     "removeComments": true,
-    "rootDir": "src/ts",
+    "rootDir": "src",
     "sourceMap": true,
     "target": "ES6"
   },

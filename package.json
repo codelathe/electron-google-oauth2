@@ -11,7 +11,7 @@
     "email": "joel@getstation.com"
   },
   "scripts": {
-    "build": "tsc -p .",
+    "build": "node -v",
     "prepublishOnly": "yarn run build"
   },
   "keywords": [
@@ -33,5 +33,7 @@
   "bugs": {
     "url": "https://github.com/getstation/electron-google-oauth2/issues"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+
   "homepage": "https://github.com/getstation/electron-google-oauth2#readme"
 }

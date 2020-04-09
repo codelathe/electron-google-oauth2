@@ -172,4 +172,4 @@ class ElectronGoogleOAuth2 extends EventEmitter {
     this.oauth2Client.setCredentials(tokens);
   }
 }
-export = ElectronGoogleOAuth2;
+exports = ElectronGoogleOAuth2;
