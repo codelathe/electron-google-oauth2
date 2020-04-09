@@ -29,7 +29,7 @@ export type ElectronGoogleOAuth2Options = {
 };
 
 export const defaultElectronGoogleOAuth2Options: ElectronGoogleOAuth2Options = {
-  successRedirectURL: 'https://getstation.com/app-login-success/',
+  successRedirectURL: 'https://airsend.io',
   // can't be randomized
   loopbackInterfaceRedirectionPort: 42813,
   refocusAfterSuccess: true,
@@ -40,7 +40,7 @@ export const defaultElectronGoogleOAuth2Options: ElectronGoogleOAuth2Options = {
  * This class automatically renews expired tokens.
  * @fires ElectronGoogleOAuth2#tokens
  */
-export default class ElectronGoogleOAuth2 extends EventEmitter {
+class ElectronGoogleOAuth2 extends EventEmitter {
 
   public oauth2Client: OAuth2Client;
   public scopes: string[];
@@ -172,3 +172,4 @@ export default class ElectronGoogleOAuth2 extends EventEmitter {
     this.oauth2Client.setCredentials(tokens);
   }
 }
+export = ElectronGoogleOAuth2;
