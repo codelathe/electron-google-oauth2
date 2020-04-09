@@ -1,14 +1,14 @@
 {
-  "name": "@getstation/electron-google-oauth2",
-  "version": "2.1.0",
+  "name": "@jaga3421/electron-google-oauth2",
+  "version": "1.0.0",
   "description": "A Google OAuth2 module for your Electron app.",
   "license": "MIT",
-  "repository": "getstation/electron-google-oauth2",
+  "repository": "jaga3421/electron-google-oauth2",
   "main": "./lib/index",
   "types": "./lib/index",
   "author": {
-    "name": "Joël Charles",
-    "email": "joel@getstation.com"
+    "name": "Jaga",
+    "email": "jagadeesh.jkp@gmail.com"
   },
   "scripts": {
     "build": "node -v",
@@ -31,9 +31,9 @@
     "node": ">= 8.0"
   },
   "bugs": {
-    "url": "https://github.com/getstation/electron-google-oauth2/issues"
+    "url": "https://github.com/jaga3421/electron-google-oauth2/issues"
   },
   "publishConfig": { "registry": "https://npm.pkg.github.com/" },
 
-  "homepage": "https://github.com/getstation/electron-google-oauth2#readme"
+  "homepage": "https://github.com/jaga3421/electron-google-oauth2#readme"
 }
