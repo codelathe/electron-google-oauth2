@@ -1,5 +1,5 @@
 {
-  "name": "electron-google-oauth2",
+  "name": "@codelathe/electron-google-oauth2",
   "version": "1.0.1",
   "description": "A Google OAuth2 module for your Electron app.",
   "license": "MIT",
@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/codelathe/electron-google-oauth2/issues"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/@codelathe" },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
 
   "homepage": "https://github.com/codelathe/electron-google-oauth2#readme"
 }
